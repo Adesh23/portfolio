@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:480px)" href="phone.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a> </li>
+      <li><a href="#About">About Me</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#proj">Projects</a></li>
+      <li><a href="#con">Contact Me</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <div class="main">
+      <h1 class="heading">I AM <br><span class="name"></span></h1>
+      <button class="btn">HIRE ME</button>
+    </div>
+  </section>
+  <section id="About">
+    <h1 class="heading"> About me</h1>
+    <div class="pic">
+      <img class="" src="Images/img4.jpg" />
+      <div class="intro">
+        <p class="intro-head">Hi <br />I am Adesh Narnaware </p>
+        <p class="intro-text">A web developer based in Nagpur ,India
+          I like to design web pages and watch movies and help you to create great frontend design </p>
+      </div>
+    </div>
+  </section>
+  <section class="Projects" id="proj">
+    <h1 class="heading fix "> Projects</h1>
+    <div class="container">
+      <div class="card">
+        <img class="card-img" src="Images/quiz.jpg" />
+        <div class="card-head">Quiz app</div>
+        <div class="card-cont">
+          A quiz app to just
+          to test your knowledge.
+        </div>
+        <button class="card-btn"><a href="https://cranky-lalande-bdb9a1.netlify.app/">View</a></button>
+      </div>
+      <div class="card">
+        <img class="card-img" src="Images/cal.jpg" />
+        <div class="card-head">Shopping cart Page</div>
+        <div class="card-cont">Shopping cart page with responsive design
+        </div>
+        <button class="card-btn"><a href="https://peaceful-ride-b8ab3a.netlify.app/">View</a></button>
+      </div>
+      <div class="card">
+        <img class="card-img" src="Images/resume.jpg" />
+        <div class="card-head">My Resume</div>
+        <div class="card-cont">
+          Re-created my resume using html and css
+        </div>
+        <button class="card-btn"><a href="https://pedantic-mirzakhani-358098.netlify.app/">View</a></button>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skill">
+    <h1 class="heading">Skills</h1>
+    <div class="ski-sec">
+      <p class="primary">HTML5</p>
+      <div class="box">
+        <div class="html value">
+          80%
+        </div>
+      </div>
+      <p class="primary">CSS3</p>
+      <div class="box">
+        <div class="html value">
+          80%
+        </div>
+      </div>
+      <p class="primary">Javascript</p>
+      <div class="box">
+        <div class="Js value">50%
+        </div>
+      </div>
+      <p class="primary">Bootstrap</p>
+      <div class="box">
+        <div class="react value">50%
+        </div>
+      </div>
+      <p class="primary">mongoDB</p>
+      <div class="box">
+        <div class="mongo value"> 50%
+        </div>
+      </div>
+      <p class="primary">Node.js</p>
+      <div class="box">
+        <div class="node value"> 40%
+        </div>
+      </div>
+      <p class="primary">Express</p>
+      <div class="box">
+        <div class="express value"> 40%
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="con">
+    <h1 class="heading fix">Contact</h1>
+    <div class="cont-container">
+      <div class="form">
+        <form id="rex">
+          <h2>Drop me a line</h2>
+          <p class="text"> Full Name</p><input type="text" class="form-input" placeholder="What is your full name" required />
+          <p class="text">Email</p><input type="email" class="form-input" placeholder="you@example.com" required />
+          <p class="text">Message</p><input type="Textarea" class="form-input Textarea" placeholder="Write your message for me here" required />
+          <button id="btn">Submit</button>
+        </form>
+      </div>
+      <div class="con-img">
+        <img class="" src="Images/contact.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+  <script src="main.js">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Kumbh Sans', sans-serif; 
+}
+/*Navbar*/
+.navbar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  
+}
+.navbar ul{
+  display:flex;
+  list-style: none;
+margin:20px 0px;
+}
+.navbar ul li{
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color:white;
+  padding:8px 25px;
+  transition: all .5 ease;
+}
+.navbar ul li a:hover{
+background-color: white;
+color: black;
+box-shadow:0 0 10px white;
+}
+/*Home section*/
+#home{
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height:540px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.heading{
+  color: white;
+}
+.name{
+  font-size: 3rem;
+}
+.name::after{
+  content: "ADESH NARNAWARE";
+animation: text 10s infinite; 
+}
+
+@keyframes text{
+  50%{
+    content: "FRONT END DEVELOPER"
+  }
+}
+#home::before{
+  content: "";
+  position:absolute;
+  top:0;
+  right:0;
+  background-image: url('Images/img.jpeg');
+  height:600px;
+  width: 100%;
+  z-index: -1;
+}
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  font-family: century;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 25px;
+}
+.btn{
+  height: 30px;
+  width: 80px;
+  margin-top:50px;
+  background-color: transparent;
+  color:white;
+  border:1px solid white;
+  outline: none;
+  transition: 0.6s ease;
+  font-weight: bold;
+}
+.btn:hover{
+  cursor:pointer;
+  font-weight: bold;
+  background-color: white;
+  color:black;
+  box-shadow: 0 0 5px white,0 0 10px white, 0 0 15px white;
+}
+
+/*About section*/
+#About{
+  background-color: white;
+/*  margin:50px;
+ border-radius:30px;*/
+ height: 600px;
+ 
+}
+  #About h1{
+padding-top:15px;
+  color: black;
+}
+.pic{
+  display: flex;
+  flex-direction:row;
+}
+.pic img{
+ margin:30px;  
+  width:400px;
+  height:400px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+margin:40px;
+width:400px;
+height:400px;
+padding: 20px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.intro-text{
+  font:century;
+ color:black;
+ font-size: 1.5rem;
+ padding:15px;
+ text-align:justify;
+}
+.intro-head{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*projects sections*/
+.Projects{
+   background-color: white;
+   /*margin:50px;
+   border-radius:50px;*/
+   height:500px;
+   justify-content:center;
+   align-items: center;
+}
+.container{
+  display:flex;
+  flex-direction:row;
+  padding: 50px;
+}
+.fix{
+color: black;
+}
+.card-img{
+  display: block;
+  margin: auto;
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+}
+.card{
+  display:flex;
+  flex-direction:column;
+  height:400px;
+  padding: 30px;
+  margin:20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.card:hover{
+ webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25); 
+}
+.card-head{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding:10px;
+  font-weight: bold;
+}
+.card-cont{
+  display: flex;
+  width:200px;
+  padding: 10px;
+  height:100px;
+  font-size:1.2rem;
+  color: lightslategrey;
+  text-align: center;
+}
+.card-btn{
+  display:inline-block;
+  width:100px;
+  margin:auto;
+  height:30px;
+  color:white;
+  text-decoration: none;
+  border:none;
+  border-radius:10px;
+  background-color: black;
+  cursor: pointer;
+}
+.card-btn a{
+    color:white;
+    text-decoration: none;
+      cursor: pointer;
+}
+
+/*skills section*/
+.skills{
+  width:100%;
+border:4px solid black;
+  margin-top:100px;
+  background-color: black;
+}
+.skills h1{
+  font-size: 2rem;
+}
+.ski-sec{
+  color: white;
+  width: 800px;
+  height: 700px;
+  display: flex;
+  flex-direction:column;
+  /*border:2px solid white;*/
+  height:500px;
+  margin: auto;
+  padding:60px;
+}
+.primary{
+  position: relative;
+  top:25px;
+  font-size:1.5rem;
+  display:inline-block;
+}
+.box{
+  display: inline-block;
+  border: 2px solid white;
+  width:500px;
+  height:30px;
+  margin-left:120px;
+  border-radius:10px;
+  z-index: 1;
+  overflow: hidden;
+   box-shadow: 0 0px 20px white;
+}
+.value{
+  text-align:right;
+  color:black;
+  font-weight: bold;
+  font-size:1rem;
+  padding-top:5px;
+}
+.html{
+  display: inline-block;
+  width:80%;
+  height:30px;
+  background-color:white;
+  z-index:-1;
+ animation: html 5s ease 2s 4 forwards;
+  box-shadow: 0 3px 20px white; 
+}
+.Js{
+  display: inline-block;
+  width:50%;
+  height: 30px;
+  background-color: white;
+  z-index: -1;
+  animation: Js 5s ease 2s 4 forwards;
+}
+.react{
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  z-index: -1;
+  animation: react 5s ease 2s 4 forwards;
+}
+.mongo{
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  z-index: -1;
+  animation: mongo 5s ease 2s 4 forwards;
+}
+.node{
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  background-color: white;
+  z-index: -1;
+  animation: node 5s ease 2s 4 forwards;
+}
+.express{
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  background-color: white;
+  z-index: -1;
+  animation: exp 5s ease 2s 4 forwards;
+} 
+
+/*Animations */
+@keyframes html {
+  from{
+    width:0%
+  }
+  to{
+    width:80%;
+  }
+}
+
+@keyframes Js {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes react {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes mongo {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes node {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 40%;
+  }
+}
+@keyframes exp {
+  from {
+    width: 0%
+  }
+
+  to {
+    width: 40%;
+  }
+}
+@keyframes name {
+  from {
+  content: Adesh Narnaware
+  }
+
+  to {
+  content: a Web developer
+  }
+}
+/*Contact sections*/
+
+.con-img img{
+  margin: 20px;
+  width:400px;
+  height:350px;
+}
+.form{
+  display: flex;
+  /*border: 2px solid black;*/
+  padding:5px;
+  height:600px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.form h2{
+display:block;
+width: 100%;
+font-size: 2rem;
+text-align: center;
+}
+#rex{
+  /*border: 2px solid grey;*/
+  padding:10px 35px;
+}
+.form input{
+  margin-bottom:10px;
+  font-size: 1.6rem;
+  padding: 15px;
+  border: 2px solid grey;
+}
+.text{
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+.Textarea{
+height: 100px;
+padding: 5px;
+}
+#btn{
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top:35px;
+  font-size: 1.5rem;
+  background:black;
+  color: white;
+  border:none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.cont-container{
+  display: flex;
+  padding:50px;
+  margin:20px;
+}

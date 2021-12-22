@@ -1,0 +1,98 @@
+body{
+
+}
+.navbar ul{
+
+}
+.navbar ul li a{
+ padding: 10px;
+ font-size: 0.7rem;
+}
+#About{
+display: flex;
+flex-direction:column;
+}
+.pic img {
+  display: none;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+}
+.intro {
+  display:inline-block;
+height: 300px;
+}  
+.intro-head{
+  font-size: 2rem;
+}
+.intro-text{
+  font-size: 1rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+}
+.skills{
+   margin-top:0px;
+  background-color: black;
+  position: absolute;
+  top:2700px;
+  height: 400px;
+}
+.ski-sec{
+
+  width:100%;
+  padding: 0px;
+  height: 300px;
+}
+.primary{
+
+  font-size: 1rem;
+}
+.box{
+  width:200px;
+  height: 10px;
+}
+.contact{
+  position: absolute;
+  top:3100px;
+}
+.con-img img{
+  display: none;
+}
+.form{
+height:300px;  
+}
+.form input{
+  font-size:0.6rem;
+  padding: 1px;
+}
+#rex{
+  padding:5px;
+}
+.text{
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.Textarea{
+  height:50px;
+}
+#btn{
+  top:10px;
+  width:100px;
+  height:20px;
+  font-size: 1rem;
+}
+.form h2{
+font-size: 1rem;
+}
+.cont-container{
+ padding: 10px;
+ margin-left: 50%;
+}
+
+.contact h1{
+  margin-left:60%; 
+}
