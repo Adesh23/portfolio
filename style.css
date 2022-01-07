@@ -86,7 +86,7 @@ animation: text 10s infinite;
 }
 .heading{
   font-family: century;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 25px;
 }
@@ -138,6 +138,7 @@ width:400px;
 height:400px;
 padding: 20px;
 box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+background-color: white;
 }
 .intro-text{
   font:century;
@@ -239,7 +240,7 @@ border:4px solid black;
   background-color: black;
 }
 .skills h1{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .ski-sec{
   color: white;
@@ -450,3 +451,26 @@ padding: 5px;
   padding:50px;
   margin:20px;
 }
+
+/*Footer section*/
+footer{
+  background-color: black;
+  display: flex;
+  height:100px; 
+  justify-content: center;
+  align-items: center;
+
+}
+.wrapper{
+  display:flex;
+}
+.social-icon i{
+font-size: 3rem;
+margin: 20px;
+color: white;
+}
+.social-icon a{
+  text-decoration: none;
+  
+}
+

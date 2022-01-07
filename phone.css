@@ -96,3 +96,13 @@ font-size: 1rem;
 .contact h1{
   margin-left:60%; 
 }
+footer{
+  position: absolute;
+  top:3600px;
+  width: 100%;
+}
+.social-icon i{
+font-size: 1rem;
+margin: 10px;
+color: white;
+}
