@@ -115,7 +115,11 @@ animation: text 10s infinite;
 /*  margin:50px;
  border-radius:30px;*/
  height: 600px;
- 
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   #About h1{
 padding-top:15px;
@@ -448,6 +452,8 @@ padding: 5px;
 }
 .cont-container{
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding:50px;
   margin:20px;
 }
